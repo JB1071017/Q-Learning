@@ -30,6 +30,7 @@ Strategy: jump_attack, wait_pattern, idle
 3. Q-Table Structure
 python
 # The Q-table stores learned values for state-action pairs
+###
 q_table = {
     state_1: {action_1: Q_value, action_2: Q_value, ...},
     state_2: {action_1: Q_value, action_2: Q_value, ...},
